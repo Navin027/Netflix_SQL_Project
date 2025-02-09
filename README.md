@@ -1,27 +1,13 @@
 # Netflix Data Analysis Project using SQL
-
-[]()
+![Netflix Logo](https://github.com/Navin027/Netflix_SQL_Project/blob/main/logo.png)
 
 This project explores a Netflix dataset to gain insights into content trends, popular genres, and other interesting information.  The analysis is performed using SQL queries.
 
 ## Dataset
 
-The dataset used in this project is stored in a table named `netflix` and contains information about movies and TV shows available on Netflix. The table schema is as follows:
+The data for this project is sourced from the Kaggle dataset:
 
-| Column Name | Data Type | Description |
-|---|---|---|
-| show_id | VARCHAR(7) | Unique identifier for each show |
-| type | VARCHAR(10) | Type of content (Movie or TV Show) |
-| title | VARCHAR(150) | Title of the show |
-| director | VARCHAR(208) | Director of the show |
-| casts | VARCHAR(1000) | Cast members of the show |
-| country | VARCHAR(150) | Country of origin |
-| date_added | VARCHAR(50) | Date when the show was added to Netflix |
-| release_year | INT | Year of release |
-| rating | VARCHAR(10) | Rating of the show |
-| duration | VARCHAR(15) | Duration of the show |
-| listed_in | VARCHAR(100) | Genre(s) of the show |
-| description | VARCHAR(250) | Brief description of the show |
+Dataset Link: [Movies Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 
 ## Business Problems and Solutions
 
@@ -68,12 +54,11 @@ The SQL queries for each of the above problems are included in the provided scri
 3.  **Data Import:** Import your Netflix dataset into the `netflix` table.
 4.  **Run Queries:** Execute the SQL queries against your database.
 
-## Project Structure
+## Findings and Conclusion
 
-## Contributing
+1.  **Content Distribution:** The dataset contains a diverse range of movies and TV shows with varying ratings and genres.
+2.  **Common Ratings:** Insights into the most common ratings provide an understanding of the content's target audience.
+3.  **Geographical Insights:** The top countries and the average content releases by India highlight regional content distribution.
+4.  **Content Categorization:** Categorizing content based on specific keywords helps in understanding the nature of content available on Netflix.
+   This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
 
-Contributions are welcome!  Please feel free to submit pull requests or open issues to suggest improvements or add new analyses.
-
-## License
-
-[Choose a license - e.g., MIT License]
